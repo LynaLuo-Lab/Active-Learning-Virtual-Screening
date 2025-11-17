@@ -5,4 +5,4 @@ The rapid expansion of large chemical libraries has led to the need for efficien
 
 
 <h2>Dataset files</h2>
-We had three docking datasets, each dataset corresponding to a different docking model: SILCS-MC, Glide, and Autodock-Vina. The datasets were provided in the CSV format, featuring a column containing the SMILES string and the respective docking score. The CSV files were separated into the 40k set used for active learning and the 5k test. 
+We had three docking datasets, each dataset corresponding to a different docking model: SILCS-MC, Glide, and Autodock-Vina. The datasets were provided in the CSV format, featuring a column containing the SMILES string and their respective docking score. The CSV files were separated into the 40k set used for active learning and the 5k test. 
