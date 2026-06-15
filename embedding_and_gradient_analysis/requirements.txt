@@ -1,0 +1,7 @@
+# Python 3.10
+# Exact versions used to generate the figures in this repository.
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.10.8
+scikit-learn==1.7.2
+umap-learn==0.5.12
