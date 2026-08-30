@@ -1,4 +1,4 @@
-# Per-engine embedding UMAPs
+# Figures S6–S8 — per-engine embedding UMAPs
 
 Two-dimensional UMAP projections of the ChemProp molecule embeddings
 (`mpn_fp`), one figure per docking engine (SILCS, Glide, Vina), each showing
@@ -19,8 +19,11 @@ scratch (deterministic; `random_state=42`).
 
 ## Outputs (`analysis/umaps/`)
 
-- `silcs_per_engine.png`, `glide_per_engine.png`, `vina_per_engine.png` — side-label variant
-- `*_per_engine_toplabel.png` — horizontal section-label variant
+- `vina_per_engine_toplabel.png` — **Figure S6**
+- `glide_per_engine_toplabel.png` — **Figure S7**
+- `silcs_per_engine_toplabel.png` — **Figure S8**
+- `silcs_per_engine.png`, `glide_per_engine.png`, `vina_per_engine.png` —
+  side-label variant of the same three figures; not the published version
 
 ## Inputs
 

@@ -1,4 +1,4 @@
-# Linear-SVM separability (ROC-AUC)
+# Figure 5a — linear-SVM separability (ROC-AUC)
 
 Tests whether the ChemProp embedding (`mpn_fp`) and last-layer gradient
 (`grad_W`) linearly separate the top-p% from the bottom-p% docking scores. A
@@ -14,8 +14,11 @@ python scripts/chemprop_vina/svm_separability.py
 ## Outputs (`analysis/umaps/`)
 
 - `separability_auc.csv` — one row per (engine, rep, feature, threshold) with
-  `auc_mean`, `auc_std`, `n_pos`, `n_neg`. **Also consumed by Figure 2.**
-- `separability_auc.png` — ROC-AUC bar chart (engine × feature) at the 25% threshold
+  `auc_mean`, `auc_std`, `n_pos`, `n_neg`. **Panel (a) of Figure 5 is drawn from
+  this; `fig5_gmm/` needs a copy of it.**
+- `separability_auc.png` — ROC-AUC bar chart (engine × feature) at the 25%
+  threshold. Standalone version; the published panel is drawn inside
+  `gmm_combined.png`.
 
 ## Inputs
 
